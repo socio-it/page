@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from "../assets/SOcio Logo.png"
+import logo from "../../assets/SOcio Logo.png"
 import { Grid2 } from "@mui/material";
 
 export default function Nav (){
