@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import NavWrapper from "@/components/navWrapper";
+import NavWrapper from "@/components/nav/navWrapper";
 import MuiProvider from "./MuiProvider";
 
 

@@ -1,168 +1,74 @@
 [
-    {
-      "id": 1,
-      "titulo": "Cómo optimizar tu infraestructura tecnológica",
-      "descripcion": "Mejores prácticas para mejorar el rendimiento de tu infraestructura TI.",
-      "fecha": "2025-03-20",
-      "autor": "Carlos Méndez",
-      "categoria": "Infraestructura",
-      "tags": ["Cloud", "DevOps", "Optimización"],
-      "pdfUrl": "https://tusitio.com/pdf/infraestructura-optima.pdf",
-      "linkedinUrl": "https://www.linkedin.com/company/tuempresa/post/1"
-    },
-    {
-      "id": 2,
-      "titulo": "Automatización de procesos con IA",
-      "descripcion": "Implementa soluciones de IA para automatizar procesos clave.",
-      "fecha": "2025-03-15",
-      "autor": "Lucía Rodríguez",
-      "categoria": "Automatización",
-      "tags": ["IA", "Automatización", "Machine Learning"],
-      "pdfUrl": "https://tusitio.com/pdf/automatizacion-ia.pdf",
-      "linkedinUrl": "https://www.linkedin.com/company/tuempresa/post/2"
-    },
-    {
-      "id": 3,
-      "titulo": "Guía de ciberseguridad para PYMES",
-      "descripcion": "Protégete de amenazas cibernéticas con esta guía práctica.",
-      "fecha": "2025-03-10",
-      "autor": "Andrés López",
-      "categoria": "Ciberseguridad",
-      "tags": ["Ciberseguridad", "Protección", "PYMES"],
-      "pdfUrl": "https://tusitio.com/pdf/guia-ciberseguridad.pdf",
-      "linkedinUrl": "https://www.linkedin.com/company/tuempresa/post/3"
-    },
-    {
-      "id": 4,
-      "titulo": "Beneficios del Cloud Computing",
-      "descripcion": "Cómo la nube puede transformar tu negocio.",
-      "fecha": "2025-03-08",
-      "autor": "María Torres",
-      "categoria": "Cloud",
-      "tags": ["Cloud", "AWS", "Azure"],
-      "pdfUrl": "https://tusitio.com/pdf/beneficios-cloud.pdf",
-      "linkedinUrl": "https://www.linkedin.com/company/tuempresa/post/4"
-    },
-    {
-      "id": 5,
-      "titulo": "Estrategias de backup empresarial",
-      "descripcion": "Cómo crear un plan de respaldo efectivo.",
-      "fecha": "2025-03-05",
-      "autor": "Javier Ruiz",
-      "categoria": "Backup",
-      "tags": ["Backup", "Recuperación", "Disaster Recovery"],
-      "pdfUrl": "https://tusitio.com/pdf/estrategias-backup.pdf",
-      "linkedinUrl": "https://www.linkedin.com/company/tuempresa/post/5"
-    },
-    {
-      "id": 6,
-      "titulo": "Zero Trust: Seguridad moderna",
-      "descripcion": "Cómo implementar un modelo de seguridad Zero Trust.",
-      "fecha": "2025-03-01",
-      "autor": "Sofía Herrera",
-      "categoria": "Ciberseguridad",
-      "tags": ["Zero Trust", "Seguridad", "IT"],
-      "pdfUrl": "https://tusitio.com/pdf/zero-trust.pdf",
-      "linkedinUrl": "https://www.linkedin.com/company/tuempresa/post/6"
-    },
-    {
-      "id": 7,
-      "titulo": "DevOps: Integración continua",
-      "descripcion": "Automatiza el desarrollo y despliegue de software.",
-      "fecha": "2025-02-27",
-      "autor": "Miguel Vargas",
-      "categoria": "DevOps",
-      "tags": ["CI/CD", "DevOps", "Automatización"],
-      "pdfUrl": "https://tusitio.com/pdf/devops-ci.pdf",
-      "linkedinUrl": "https://www.linkedin.com/company/tuempresa/post/7"
-    },
-    {
-      "id": 8,
-      "titulo": "Machine Learning en la industria",
-      "descripcion": "Casos de uso de ML en entornos industriales.",
-      "fecha": "2025-02-25",
-      "autor": "Laura Castro",
-      "categoria": "IA",
-      "tags": ["Machine Learning", "Industria", "IA"],
-      "pdfUrl": "https://tusitio.com/pdf/ml-industria.pdf",
-      "linkedinUrl": "https://www.linkedin.com/company/tuempresa/post/8"
-    },
-    {
-      "id": 9,
-      "titulo": "Big Data para la toma de decisiones",
-      "descripcion": "Cómo aprovechar el Big Data para decisiones estratégicas.",
-      "fecha": "2025-02-20",
-      "autor": "Pedro Morales",
-      "categoria": "Big Data",
-      "tags": ["Big Data", "Analytics", "Decisiones"],
-      "pdfUrl": "https://tusitio.com/pdf/big-data.pdf",
-      "linkedinUrl": "https://www.linkedin.com/company/tuempresa/post/9"
-    },
-    {
-      "id": 10,
-      "titulo": "Redes seguras para empresas",
-      "descripcion": "Protege la red de tu empresa contra amenazas.",
-      "fecha": "2025-02-18",
-      "autor": "Claudia Ramírez",
-      "categoria": "Redes",
-      "tags": ["Redes", "Firewall", "Seguridad"],
-      "pdfUrl": "https://tusitio.com/pdf/redes-seguras.pdf",
-      "linkedinUrl": "https://www.linkedin.com/company/tuempresa/post/10"
-    },
-    {
-      "id": 11,
-      "titulo": "Transformación Digital paso a paso",
-      "descripcion": "Guía para digitalizar procesos de negocio.",
-      "fecha": "2025-02-15",
-      "autor": "Esteban Paredes",
-      "categoria": "Transformación Digital",
-      "tags": ["Digitalización", "Innovación", "Empresa"],
-      "pdfUrl": "https://tusitio.com/pdf/transformacion-digital.pdf",
-      "linkedinUrl": "https://www.linkedin.com/company/tuempresa/post/11"
-    },
-    {
-      "id": 12,
-      "titulo": "Contenedores y Kubernetes",
-      "descripcion": "Orquesta tus aplicaciones con Kubernetes.",
-      "fecha": "2025-02-10",
-      "autor": "Patricia Salazar",
-      "categoria": "DevOps",
-      "tags": ["Kubernetes", "Docker", "Contenedores"],
-      "pdfUrl": "https://tusitio.com/pdf/kubernetes-guia.pdf",
-      "linkedinUrl": "https://www.linkedin.com/company/tuempresa/post/12"
-    },
-    {
-      "id": 13,
-      "titulo": "Cultura Agile en equipos TI",
-      "descripcion": "Cómo implementar metodologías ágiles.",
-      "fecha": "2025-02-08",
-      "autor": "Roberto Díaz",
-      "categoria": "Agile",
-      "tags": ["Scrum", "Kanban", "Agile"],
-      "pdfUrl": "https://tusitio.com/pdf/agile-ti.pdf",
-      "linkedinUrl": "https://www.linkedin.com/company/tuempresa/post/13"
-    },
-    {
-      "id": 14,
-      "titulo": "Seguridad en la nube",
-      "descripcion": "Protege tus servicios cloud frente a ataques.",
-      "fecha": "2025-02-05",
-      "autor": "Silvia Núñez",
-      "categoria": "Cloud",
-      "tags": ["Seguridad", "Cloud", "Protección"],
-      "pdfUrl": "https://tusitio.com/pdf/seguridad-nube.pdf",
-      "linkedinUrl": "https://www.linkedin.com/company/tuempresa/post/14"
-    },
-    {
-      "id": 15,
-      "titulo": "Análisis predictivo para negocios",
-      "descripcion": "Utiliza el análisis predictivo para anticipar tendencias.",
-      "fecha": "2025-02-01",
-      "autor": "Fernando Castillo",
-      "categoria": "Analytics",
-      "tags": ["Análisis predictivo", "Data Science", "Negocios"],
-      "pdfUrl": "https://tusitio.com/pdf/analisis-predictivo.pdf",
-      "linkedinUrl": "https://www.linkedin.com/company/tuempresa/post/15"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "title": "Cómo optimizar tu infraestructura tecnológica",
+    "description": "Mejores prácticas para mejorar el rendimiento de tu infraestructura TI.",
+    "date": "2025-03-20",
+    "author": "Carlos Méndez",
+    "category": "Infraestructura",
+    "tags": ["Cloud", "DevOps", "Optimización"],
+    "pdfUrl": "https://tusitio.com/pdf/infraestructura-optima.pdf",
+    "linkedinUrl": "https://www.linkedin.com/company/tuempresa/post/1",
+    "imgUrl": "https://via.placeholder.com/400x200?text=Infraestructura"
+  },
+  {
+    "id": 2,
+    "title": "Automatización de procesos con IA",
+    "description": "Implementa soluciones de IA para automatizar procesos clave.",
+    "date": "2025-03-15",
+    "author": "Lucía Rodríguez",
+    "category": "Automatización",
+    "tags": ["IA", "Automatización", "Machine Learning"],
+    "pdfUrl": "https://tusitio.com/pdf/automatizacion-ia.pdf",
+    "linkedinUrl": "https://www.linkedin.com/company/tuempresa/post/2",
+    "imgUrl": "https://via.placeholder.com/400x200?text=IA+Automatización"
+  },
+  {
+    "id": 3,
+    "title": "Guía de ciberseguridad para PYMES",
+    "description": "Protégete de amenazas cibernéticas con esta guía práctica.",
+    "date": "2025-03-10",
+    "author": "Andrés López",
+    "category": "Ciberseguridad",
+    "tags": ["Ciberseguridad", "Protección", "PYMES"],
+    "pdfUrl": "https://tusitio.com/pdf/guia-ciberseguridad.pdf",
+    "linkedinUrl": "https://www.linkedin.com/company/tuempresa/post/3",
+    "imgUrl": "https://via.placeholder.com/400x200?text=Ciberseguridad"
+  },
+  {
+    "id": 4,
+    "title": "Beneficios del Cloud Computing",
+    "description": "Cómo la nube puede transformar tu negocio.",
+    "date": "2025-03-08",
+    "author": "María Torres",
+    "category": "Cloud",
+    "tags": ["Cloud", "AWS", "Azure"],
+    "pdfUrl": "https://tusitio.com/pdf/beneficios-cloud.pdf",
+    "linkedinUrl": "https://www.linkedin.com/company/tuempresa/post/4",
+    "imgUrl": "https://via.placeholder.com/400x200?text=Cloud+Computing"
+  },
+  {
+    "id": 5,
+    "title": "Estrategias de backup empresarial",
+    "description": "Cómo crear un plan de respaldo efectivo.",
+    "date": "2025-03-05",
+    "author": "Javier Ruiz",
+    "category": "Backup",
+    "tags": ["Backup", "Recuperación", "Disaster Recovery"],
+    "pdfUrl": "https://tusitio.com/pdf/estrategias-backup.pdf",
+    "linkedinUrl": "https://www.linkedin.com/company/tuempresa/post/5",
+    "imgUrl": "https://via.placeholder.com/400x200?text=Backup"
+  },
+  {
+    "id": 6,
+    "title": "Zero Trust: Seguridad moderna",
+    "description": "Cómo implementar un modelo de seguridad Zero Trust.",
+    "date": "2025-03-01",
+    "author": "Sofía Herrera",
+    "category": "Ciberseguridad",
+    "tags": ["Zero Trust", "Seguridad", "IT"],
+    "pdfUrl": "https://tusitio.com/pdf/zero-trust.pdf",
+    "linkedinUrl": "https://www.linkedin.com/company/tuempresa/post/6",
+    "imgUrl": "https://via.placeholder.com/400x200?text=Zero+Trust"
+  }
+]
