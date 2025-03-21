@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "nombre": "Juan Pérez",
+      "email": "juan.perez@email.com",
+      "rol": "Administrador",
+      "foto": "https://randomuser.me/api/portraits/men/45.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "Ana Gómez",
+      "email": "ana.gomez@email.com",
+      "rol": "Editor",
+      "foto": "https://randomuser.me/api/portraits/women/22.jpg"
+    },
+    {
+      "id": 3,
+      "nombre": "Carlos Ramírez",
+      "email": "carlos.ramirez@email.com",
+      "rol": "Colaborador",
+      "foto": "https://randomuser.me/api/portraits/men/31.jpg"
+    },
+    {
+      "id": 4,
+      "nombre": "Lucía Fernández",
+      "email": "lucia.fernandez@email.com",
+      "rol": "Editor",
+      "foto": "https://randomuser.me/api/portraits/women/34.jpg"
+    },
+    {
+      "id": 5,
+      "nombre": "Diego Martínez",
+      "email": "diego.martinez@email.com",
+      "rol": "Administrador",
+      "foto": "https://randomuser.me/api/portraits/men/12.jpg"
+    },
+    {
+      "id": 6,
+      "nombre": "Sofía Torres",
+      "email": "sofia.torres@email.com",
+      "rol": "Colaborador",
+      "foto": "https://randomuser.me/api/portraits/women/41.jpg"
+    },
+    {
+      "id": 7,
+      "nombre": "Martín López",
+      "email": "martin.lopez@email.com",
+      "rol": "Editor",
+      "foto": "https://randomuser.me/api/portraits/men/53.jpg"
+    },
+    {
+      "id": 8,
+      "nombre": "Valentina Ruiz",
+      "email": "valentina.ruiz@email.com",
+      "rol": "Colaborador",
+      "foto": "https://randomuser.me/api/portraits/women/27.jpg"
+    },
+    {
+      "id": 9,
+      "nombre": "Alejandro Castro",
+      "email": "alejandro.castro@email.com",
+      "rol": "Administrador",
+      "foto": "https://randomuser.me/api/portraits/men/64.jpg"
+    },
+    {
+      "id": 10,
+      "nombre": "Camila Herrera",
+      "email": "camila.herrera@email.com",
+      "rol": "Editor",
+      "foto": "https://randomuser.me/api/portraits/women/15.jpg"
+    }
+  ]
+  
