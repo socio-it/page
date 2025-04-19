@@ -35,4 +35,35 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
-prueba
+## Metodologia de subida 
+# 1. Ir a la rama principal y actualizarla
+git checkout main        # Cambiar a la rama 'main' (o 'master')
+git pull origin main     # Bajar y fusionar cambios del remoto
+
+# 2. Crear nueva rama para la tarea y entrar en ella
+git checkout -b nombre-de-tu-tarea # Crear y cambiar a la nueva rama
+
+# 3. Hacer cambios en archivos... (sin comando, es tu trabajo)
+
+# 4. Preparar cambios para guardar
+git add .                # Añadir todos los cambios al 'staging area'
+
+# 5. Guardar cambios (commit local)
+git commit -m "Breve descripción de los cambios" # Crear un commit con los cambios stagged
+
+# (Repetir pasos 3 a 5 mientras trabajas)
+
+# 6. Subir tu rama de tarea al remoto (la primera vez usar -u)
+git push -u origin nombre-de-tu-tarea # Subir la rama y configurar seguimiento
+
+# (Luego ir a GitHub y crear el Pull Request)
+
+# (En GitHub: Revisar y Fusionar el Pull Request)
+
+# 7. Después de fusionar en GitHub: Actualizar tu rama principal local
+git checkout main        # Cambiar de nuevo a la rama principal
+git pull origin main     # Bajar la fusión que se hizo en GitHub
+
+# 8. (Opcional) Borrar la rama de tarea (local y remota)
+git branch -d nombre-de-tu-tarea     # Borrar la rama local (-D para forzar)
+git push origin --delete nombre-de-tu-tarea # Borrar la rama en el remoto
