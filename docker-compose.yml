@@ -1,13 +1,32 @@
 version: "3.9"
+
 services:
   web:
     build: .
-    ports:
-      - "3000:3000"
+    restart: unless-stopped
     environment:
-      - NODE_ENV=production
+      NODE_ENV: production
+      NEXT_TELEMETRY_DISABLED: "1"
+      # Ejemplo si tu frontend consume una API:
+      # NEXT_PUBLIC_API_URL: https://api.socio.it.com
+    ports:
+      - "3000:3000"  # quítalo si solo expones con Traefik
     healthcheck:
       test: ["CMD", "wget", "-qO-", "http://localhost:3000/"]
       interval: 30s
       timeout: 3s
       retries: 5
+    networks: [internal, traefik]
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.next.rule=Host(`web.socio.it.com`)
+      - traefik.http.routers.next.entrypoints=websecure
+      - traefik.http.routers.next.tls=true
+      - traefik.http.routers.next.tls.certresolver=lets
+      - traefik.http.services.next.loadbalancer.server.port=3000
+
+networks:
+  internal: {}
+  traefik:
+    external: true
+    name: web

@@ -17,8 +17,6 @@ FROM node:20-alpine AS runner
 WORKDIR /app
 ENV NODE_ENV=production
 ENV NEXT_TELEMETRY_DISABLED=1
-# copia artefactos de build "standalone" si tu proyecto los genera
-# si no usas output=standalone, esto igual funciona copiando .next y public
 COPY --from=builder /app/public ./public
 COPY --from=builder /app/.next ./.next
 COPY --from=builder /app/node_modules ./node_modules
